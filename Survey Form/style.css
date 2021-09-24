@@ -1,0 +1,101 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#image {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    background-color: #575791 ;
+    color: #ffffff;
+}
+
+/* Utility Classes */
+
+#container{
+    max-width: 750px;
+    margin: 4rem  auto;
+    padding: .6rem;
+}
+
+#title{
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+    padding: .6rem;
+}
+
+#decription{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .3rem;
+    margin-bottom: 1rem;
+}
+
+#survey-form{
+    background-color: rgb(47, 40, 146);
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+
+}
+
+.form-group{
+    margin-bottom : 1.5rem;
+    font-size: 1.2rem;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+#name, 
+#email,
+#age,
+#dropdown-selector-role,
+#favorite-selector,
+#comments,
+#submit{
+    width: 100%;
+    padding: .6rem;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+#survey-form .form-group:nth-child(5)label{
+    display: inline;
+}
+
+.form-group textarea{
+    height: 8rem;
+    font-size: 1.1rem;
+}
+
+#submit{
+    background: #37af65;
+    color : #ffffff; 
+    padding: .7rem;
+    font-size: 1.15rem;
+}
+
+#creator{
+    text-align: center;
+    padding: 1rem;
+}
+
+#creator a{
+    color: #aaa;
+}
+

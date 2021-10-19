@@ -118,13 +118,13 @@ img{
     margin-top:2rem;
 }
 
-#work .container > h1{
+#work .container>h1{
     font-size: 2.6rem;
     color: #fff;
     font-weight: bolder;
     text-transform: capitalize;
     margin-bottom: .7rem;
-    line-height: 1.2rem;
+    line-height: 2.4rem;
 }
 
 .bottom-line{
